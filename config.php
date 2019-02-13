@@ -70,9 +70,9 @@ define( 'COPYRIGHT_LICENSE', '' );
 //
 //	The MEDIA_URL is simply where the images are stored (useful for CDN providers, etc.)
 
-define( 'URL' , 'http://rs2018.local' );
+define( 'URL' , 'http://192.168.174.132' );
 
-define( 'MEDIA_URL' , 'http://rs2018.local/media' );
+define( 'MEDIA_URL' , 'http://192.168.174.132/media' );
 
 
 
@@ -82,9 +82,9 @@ define( 'MEDIA_URL' , 'http://rs2018.local/media' );
 //	PLEASE ENTER IN YOUR DATABASE INFORMATION BELOW.
 //	YOUR WEB HOSTING PROVIDER WILL BE ABLE TO ASSIST YOU WITH THIS.
 
-define( 'DB_NAME', 'rs2018.local' );				// Name of the MySQL database
-define( 'DB_USERNAME', 'root' );				// Username that has access to this DB
-define( 'DB_PASSWORD', 'root' );	// Password for the username that has access to this DB
+define( 'DB_NAME', 'excida' );				// Name of the MySQL database
+define( 'DB_USERNAME', 'excida_dbm' );				// Username that has access to this DB
+define( 'DB_PASSWORD', 'Password' );	// Password for the username that has access to this DB
 
 // You shouldn't have to modify these, unless your server uses a specific host (e.g., mysql.domain.com)
 define( 'DB_HOST', 'localhost' );			// Database host - normally, this is 'localhost'
@@ -104,9 +104,9 @@ define( 'DB_TYPE', 'mysql' );				// Database type - leave set to 'mysql'
 //	CORRECT: define('PATH', '/home/username/www/domain.com');
 //	INCORRECT: define('PATH', '/home/username/public_html/'); (the trailing / should not be there)
 
-define( 'PATH', '/Users/lanecampbell/Dev-Local/excida/excida' );
+define( 'PATH', '/var/www/html' );
 
-define( 'MEDIA_PATH', '/Users/lanecampbell/Dev-Local/excida/excida/media' );
+define( 'MEDIA_PATH', '/var/www/html/media' );
 
 
 
