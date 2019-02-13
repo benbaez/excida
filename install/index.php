@@ -246,7 +246,7 @@ if ( $_SESSION['step'] == 1 )
 	}
 	echo '<br /><br />';
 	*/
-		
+
 	echo 'Checking if GD is at least v2.0 or higher... ';
 	if ( gd_version() >= 2.0 )
 	{
@@ -497,7 +497,7 @@ if ( $_SESSION['step'] == 3 )
 	{
 		if ( $value != '' )
 		{	
-			$db->query( $value ) or die( 'SQL insert failed: ' . $value . '<br /><br />' . mysql_error() . '' );
+			$db->query( $value ) or die( 'SQL insert failed: ' . $value . '<br /><br />' . $db->error() . '' );
 		}
 	}
 	
