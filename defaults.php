@@ -69,7 +69,8 @@ $confClause = " site_id=0";
 if($session->fetch('u_site_id')!=""){
 	$confClause= " site_id=".$session->fetch('u_site_id');
 }
-$sql = "SELECT name, val FROM " . CONFIGURATION_TABLE . " WHERE ".$confClause;
+$sql = "SELECT name, val FROM " . CONFIGURATION_TABLE;
+// $sql = "SELECT name, val FROM " . CONFIGURATION_TABLE . " WHERE ".$confClause;
 $q = $db->query( $sql ) or die( 'Continue Installation: Database tables do not exist. Please run the installer to complete the installation process: <a href="' . URL . '/install/index.php">' . URL . '/install/index.php</a>' );
 $conf = array();
 while ( $conf_array = $db->fetcharray( $q ) )
