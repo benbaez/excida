@@ -197,20 +197,6 @@ if ( $_SESSION['step'] == 1 )
 
 	$proceed = true;
 
-	// Check server dependencies/versions
-	
-	// echo 'Checking to see if ionCube is installed on the server... ';
-	// $extensions = get_loaded_extensions();
-	// if ( in_array( 'ionCube Loader', $extensions ) )
-	// {
-	// 	echo '<span style="color:green"><b>PASSED!</b> You have ionCube installed.</span>';
-	// }
-	// else
-	// {
-	// 	$proceed = true;
-	// 	echo '<span style="color:red"><b>FAILED!</b> ionCube was not detected. Please contact your web hosting provider to enable ionCube on your account.</span>';
-	// }
-	
 	echo '<br /><br />';
 	
 	echo 'Checking if PHP is at least v5.3 or higher... ';
