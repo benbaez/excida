@@ -22,7 +22,7 @@ if (adminAuth($session->fetch('adminlogin'), $session->fetch('adminpassword')))
 		<div class="col8">
 	    
 			<?php
-			
+/*	
 			// Announcements check
 			if (isset($announcement_check))
 			{
@@ -34,14 +34,14 @@ if (adminAuth($session->fetch('adminlogin'), $session->fetch('adminpassword')))
 				if ($announcement_in != '') 
 					echo $announcement_in;
 			}
-	
+*/	
 			?>
 			
 		</div>
 		<div class="col4 last">
 			
 			<?php
-	
+/*	
 			// Version check
 			if (isset($version_check))
 			{
@@ -55,7 +55,7 @@ if (adminAuth($session->fetch('adminlogin'), $session->fetch('adminpassword')))
 				else
 					echo 'No updates available.';
 			}
-	
+*/	
 			?>
 			
 		</div>
