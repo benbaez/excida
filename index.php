@@ -13,7 +13,7 @@ if ( $page != 'install' )
 {
 	// Check if constants are defined
 	$config_fields = array(
-		'URL', 'LICENSE', 'DB_NAME', 'DB_USERNAME', 'DB_PASSWORD', 'PATH'
+		'URL', 'DB_NAME', 'DB_USERNAME', 'DB_PASSWORD', 'PATH'
 	);
 	if ( is_array( $config_fields ) )
 	{
@@ -29,7 +29,7 @@ if ( $page != 'install' )
 
 	// Check if constants have values
 	$config_fields = array(
-		URL, LICENSE, DB_NAME, DB_USERNAME, DB_PASSWORD, PATH
+		URL, DB_NAME, DB_USERNAME, DB_PASSWORD, PATH
 	);
 	if ( is_array( $config_fields ) )
 	{

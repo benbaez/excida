@@ -5,12 +5,6 @@ if ( !defined( 'PMRADMIN' ) || ( defined( 'PMRADMIN' ) && PMRADMIN == false ) )
 	die();
 } 
 
-// Warn them if the license is going to expire soon
-if (licenseExpiration() <= 30 )
-{
-	echo htmlErrorBox( '<b>Warning: Your License will expire in <a href="http://www.realtyscript.com/pricing.php" target="_blank">' . licenseExpiration() . ' day(s)</a>. Why wait? <a href="http://www.realtyscript.com/pricing.php" target="_blank">Order</a> a license to RealtyScript today!</b>' );
-}
-
 // Warn them if their administrator password should be changed
 if ( $session->fetch( 'adminlogin' ) == 'admin' && $session->fetch( 'adminpassword' ) == md5( 'admin' ) )
 {
