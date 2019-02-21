@@ -40,23 +40,6 @@ define( 'DEMO', false );
 
 
 //----------------------------------------------------------------------------
-//	LICENSE KEY
-//
-// 	NOTE: PLEASE MAKE SURE LICENSE KEY DOES NOT HAVE SPACES, LINE BREAKS, ETC.
-
-define( 'LICENSE', '{LICENSE}' );
-
-
-//----------------------------------------------------------------------------
-//	COPYRIGHT LICENSE KEY
-//
-// 	NOTE: PLEASE MAKE SURE LICENSE KEY DOES NOT HAVE SPACES, LINE BREAKS, ETC.
-
-define( 'COPYRIGHT_LICENSE', '{COPYRIGHT_LICENSE}' );
-
-
-
-//----------------------------------------------------------------------------
 //	URL & MEDIA_URL
 //
 //	NOTE: YOUR URL SHOULD BE IN THE FORMAT http://www.domain.com UNLESS YOU ARE
